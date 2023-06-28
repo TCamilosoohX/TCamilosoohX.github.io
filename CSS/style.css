@@ -1,0 +1,448 @@
+body{
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Kanit', sans-serif;
+}
+p, a, button{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.top{
+    align-items: start !important;
+}
+
+.container{
+    min-width: 1024px;
+    margin: auto;
+}
+
+.container-fluid button{
+    border: 3px solid #1F8536 !important;
+}
+
+.a2{
+    transition:  0.2s;
+}
+
+.a2:hover {
+    color: white !important;
+    transform: scale(1.1);
+    box-shadow:  0px 7px 7px #b0b0b0a8;
+}
+
+.a3{
+    text-decoration: none;
+    transition:  0.2s;
+}
+
+.a3:hover{
+    transform: scale(1.1);
+    box-shadow:  0px 7px 7px #c1c1c1a8;
+}
+
+.margen{
+    margin: 0px 5px 0px auto !important;
+}
+
+.mt-6{
+    margin-top: 120px;
+}
+
+.m-auto{
+    justify-content: center;
+    display: flex;
+}
+
+.menu{
+    align-items: center;
+}
+
+.color{
+    background-color: #3AAA35;
+    border-radius: 20px;
+    color: white;
+}
+
+.color a{
+    color: white !important;
+}
+
+li .dropdown-item{
+    color: black !important;
+}
+
+.gap-4 {
+    gap: 10.5rem!important;
+}
+
+.animacion{
+    animation-name: none;
+    animation-duration: 1s;
+}
+
+.height{
+    height: 120px;
+}
+
+.logo{
+    animation-name: none;
+}
+
+#menu{
+    top: -110px;
+    display: none;
+    background-color: #00000000;
+}
+
+@keyframes menu {
+    0%   {top:-100px;}
+    100%  {top:0px;}
+}
+
+@keyframes menu1 {
+    0%   {top:0px;}
+    100%  {top:-100px;}
+}
+
+
+@keyframes logo {
+    0%   {left:0px;}
+    100%  {left:-1766px; width: 6%;}
+}
+
+@keyframes logo1 {
+    0%   {left:-1766px;}
+    100%  {left:0px; width: 10%;}
+}
+
+
+/*MIGUEL PARTE*/
+.btn1{
+    border: 0;
+    padding: 13px;
+    background-color: #3AAA35;
+    color: white;
+    transition:  0.4s;
+    object-fit: cover;
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow:  0px 7px 7px #1f5f2ba8;
+}
+
+.imgproyectos1{
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #1f5f2ba8;
+    border-radius: 5%;
+    width: 300px;
+}
+
+.imgproyectos2{
+    padding: 15px;
+    height: 250px;
+
+}
+
+/**/
+.border {
+    border: 1px solid #1f5f2ba8 !important;
+
+    border-radius: 10px;
+}
+
+.w {
+    width: 40%;
+}
+
+.margin {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.integrante {
+    display: flex;
+    justify-content: center;
+}
+
+.thecard {
+    position: absolute;
+    width: 15%;
+    height: 30%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thecard:hover {
+    transform: rotateX(180deg);
+}
+
+.thefront1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/CERES\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/CERES\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/DEMETER\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/DEMETER\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/DEMETER\ \(3\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/GRAVITAR\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/GRAVITAR\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/GRAVITAR\ \(3\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/HABITED.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/ISIS\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/ISIS\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront12 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/TAIGA\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/TAIGA\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront14 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/TATENEN\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront15 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/TATENEN\ \(4\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.thefront16 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: url("../IMG/Personajes/TATENEN\ \(2\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: aliceblue
+}
+
+.theback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #1F8536;
+    color: aliceblue;
+    transform: rotateX(180deg);
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.theback h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.integrante1{
+    left: 13%;
+}
+.integrante2{
+    left: 42%;
+}
+.integrante3{
+    left: 70%;
+}
+
+.abajo1 {
+    margin-top: 25%;
+}
+.abajo2 {
+    margin-top: 50%;
+}
+
+.bg-color{
+    background-color: #3AAA35;
+}
+
+.contactanos h2, .contactanos p{
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex;
+    margin: auto;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.botona{
+    text-decoration: none;
+    color: #3AAA35;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1024px) {
+    .thecard {
+        position: absolute;
+        width: 15%;
+        height: 20%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+    }
+
+    .gap-4 {
+        gap: 4.5rem !important;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .d-flex{
+        flex-direction: column;
+    }
+}
